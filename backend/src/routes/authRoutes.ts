@@ -37,7 +37,7 @@ router.get(
       process.env.JWT_SECRET!,
       { expiresIn: "1h" }
     );
-    res.redirect(`http://localhost:5173/auth?token=${token}`);
+    res.redirect(`https://hd-notes.vercel.app/auth?token=${token}`);
   }
 );
 

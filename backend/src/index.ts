@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import passport from "passport";
-import "./passport"; 
+import "./passport";
 import { jwtMiddleware } from "./middleware/auth";
 import authRoutes from "./routes/authRoutes";
 import notesRoutes from "./routes/notesRoutes";
@@ -15,6 +15,7 @@ const corsOptions = {
     "http://localhost:3000",
     "http://localhost:3001",
     "http://localhost:5173",
+    "https://hd-notes.vercel.app",
   ],
   credentials: true,
   allowedHeaders: [
