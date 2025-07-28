@@ -61,7 +61,7 @@ const SignUp: React.FC = () => {
   };
 
   const handleGoogleSignup = () => {
-    window.location.href = "http://localhost:5000/auth/google";
+    window.location.href = "https://notes.solp2p.site/auth/google";
   };
 
   return (

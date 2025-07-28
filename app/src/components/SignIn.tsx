@@ -120,7 +120,7 @@ const SignIn: React.FC = () => {
     setError("");
   };
   const handleGoogleSignin = () => {
-    window.location.href = "http://localhost:5000/auth/google";
+    window.location.href = "https://notes.solp2p.site/auth/google";
   };
 
   return (
